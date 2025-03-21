@@ -1,0 +1,44 @@
+# Ignore the fashion directory
+fashion/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.err
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Ignore data and output files
+*.csv
+*.tsv
+*.json
+*.xml
+*.h5
+*.sqlite
+*.db
+*.parquet
+
+# Ignore environment and dependency files
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# Ignore compiled Jupyter output
+*.nbconvert
+*.nb.html
